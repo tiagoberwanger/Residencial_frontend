@@ -8,20 +8,16 @@ function DetailRoom () {
   const [rooms, setRooms] = useState([]);
   const [loading, setLoading] = useState(true);
 
-  const axiosGet = () => {
-    setLoading(true); 
-    axios.get(`http://localhost:3001/room/${id}`)
-    .then((response) => {
-      setRooms(response.data);
-      setLoading(false);
-    })
-    .catch((err) =>{
-      console.log(err)
-    })
-  }
-
   useEffect(() => {
-    axiosGet();
+      setLoading(true); 
+      axios.get(`http://localhost:3001/room/${id}`)
+      .then((response) => {
+        setRooms(response.data);
+        setLoading(false);
+      })
+      .catch((err) =>{
+        console.log(err)
+      })
   }, [id])
 
 
@@ -51,6 +47,9 @@ function DetailRoom () {
         <p className="ml-6 mt-2 text-1xl leading-8 font-normal tracking-tight text-gray-500 sm:text-1xl">
           Descrição: {rooms.description}
         </p>
+        <li className="ml-6 mt-2 text-1xl leading-8 italic tracking-tight text-gray-500 sm:text-1xl">
+          contas não inclusas
+        </li>
         <div className=" grid grid-flow-row md:grid-flow-col ">
           <div className="m-3 border-2 border-white border-solid">
             <img src={rooms.images[0]} alt="foto 1" />

@@ -22,9 +22,10 @@
   "isAvailable": true,
   "images": [
     "https://i.ibb.co/SyHTdVB/20210312-110537-1.jpg",
-    "https://i.ibb.co/sgnKzFt/Webp-net-resizeimage.jpg",
+    "https://i.ibb.co/tDwqg4N/20210312-110737-2.jpg",
     "https://i.ibb.co/XjKz8r2/Webp-net-resizeimage-1.jpg",
     "https://i.ibb.co/3cxwKwL/Webp-net-resizeimage-2.jpg",
+    "https://i.ibb.co/sgnKzFt/Webp-net-resizeimage.jpg",
     "https://i.ibb.co/dJGx98S/Webp-net-resizeimage-3.jpg"
   ]
   },
@@ -36,9 +37,10 @@
   "isAvailable": false,
   "images": [
     "https://i.ibb.co/SyHTdVB/20210312-110537-1.jpg",
-    "https://i.ibb.co/sgnKzFt/Webp-net-resizeimage.jpg",
+    "https://i.ibb.co/tDwqg4N/20210312-110737-2.jpg",
     "https://i.ibb.co/XjKz8r2/Webp-net-resizeimage-1.jpg",
     "https://i.ibb.co/3cxwKwL/Webp-net-resizeimage-2.jpg",
+    "https://i.ibb.co/sgnKzFt/Webp-net-resizeimage.jpg",
     "https://i.ibb.co/dJGx98S/Webp-net-resizeimage-3.jpg"
   ]
   },
@@ -55,6 +57,36 @@
     "https://i.ibb.co/zVMJdcB/IMG-20210301-195050-resized.jpg",
     "https://i.ibb.co/Kxvn35S/IMG-20210301-194936-resized.jpg",
     "https://i.ibb.co/bmyF5Jm/IMG-20210301-195107-resized.jpg"
+  ]
+  },
+  {
+  "id": "5",
+  "name": "Quarto 1",
+  "value": 375,
+  "description": "Quarto disponível no piso superior, amplo e arejado.",
+  "isAvailable": true,
+  "images": [
+    "https://i.ibb.co/z2wL0fb/IMG-20190623-140704.jpg",
+    "https://i.ibb.co/v1GRQ7y/IMG-20190623-140745.jpg",
+    "https://i.ibb.co/fFKD42C/IMG-20190623-140818.jpg",
+    "https://i.ibb.co/p4MnRtk/IMG-20190623-141910.jpg",
+    "https://i.ibb.co/RzQMbKW/IMG-20190623-141015.jpg",
+    "https://i.ibb.co/njqcx98/IMG-20190623-141003.jpg"
+  ]
+  },
+  {
+  "id": "6",
+  "name": "Quarto 2",
+  "value": 375,
+  "description": "Quarto disponível no piso superior, amplo e arejado.",
+  "isAvailable": true,
+  "images": [
+    "https://i.ibb.co/z2wL0fb/IMG-20190623-140704.jpg",
+    "https://i.ibb.co/v1GRQ7y/IMG-20190623-140745.jpg",
+    "https://i.ibb.co/fFKD42C/IMG-20190623-140818.jpg",
+    "https://i.ibb.co/p4MnRtk/IMG-20190623-141910.jpg",
+    "https://i.ibb.co/RzQMbKW/IMG-20190623-141015.jpg",
+    "https://i.ibb.co/njqcx98/IMG-20190623-141003.jpg"
   ]
   }
 ]

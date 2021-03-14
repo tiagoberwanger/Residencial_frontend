@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
+import '../styles/wppbutton.css'
 
 function Home () {
   return (
@@ -30,6 +31,7 @@ function Home () {
 
         <div className="mt-10">
           <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
+
             <div className="relative">
               <dt>
                 <Link to="/room/1">
@@ -93,6 +95,39 @@ function Home () {
               Quitinete estilo loft com 25 m². Cama suspensa em mezanino, forro em gesso, iluminação em led e móveis rusticos.
               </dd>
             </div>
+
+            <div className="relative">
+              <dt>
+                <Link to="/room/5">
+                <p className="ml-16 text-lg leading-6 font-medium text-gray-500 hover:text-gray-800">
+                  Quarto 1
+                </p>
+                </Link>
+              </dt>
+              <dd className="mt-2 ml-16 text-base text-gray-800">
+                Valor: $375 + contas
+              </dd>
+              <dd className="mt-2 ml-16 text-base text-gray-500">
+                Quarto disponível no piso superior, amplo e arejado.
+              </dd>
+            </div>
+
+          <div className="relative">
+              <dt>
+                <Link to="/room/6">
+                <p className="ml-16 text-lg leading-6 font-medium text-gray-500 hover:text-gray-800">
+                  Quarto 2
+                </p>
+                </Link>
+              </dt>
+              <dd className="mt-2 ml-16 text-base text-gray-800">
+                Valor: $375 + contas
+              </dd>
+              <dd className="mt-2 ml-16 text-base text-gray-500">
+              Quarto disponível no piso superior, amplo e arejado.
+              </dd>
+            </div>
+
           </dl>
         </div>
       </div>
@@ -117,8 +152,11 @@ function Home () {
         <p className="text-2xl mt-10 mb-5 mx-auto text-base text-gray-500">
           Contato
         </p>
-          <a href="https://api.whatsapp.com/send?phone=5549999262126&text=Ol%C3%A1!%20Estou%20interessado%20em%20uma%20quitinete" className="mt-3 bg-green-500 px-4 py-2 text-white rounded-full" target="_blank">
-            Whatsapp
+          <a href="mailto:daniel_berwanger@hotmail.com" className="mt-3 px-4 py-2 text-base text-gray-500">
+            daniel_berwanger@hotmail.com
+          </a>
+          <a href="https://api.whatsapp.com/send?phone=5549999262126&text=Ol%C3%A1!%20Estou%20interessado%20em%20uma%20quitinete" class="float" target="_blank" rel="noopener noreferrer">
+          <i class="fa fa-whatsapp my-float"></i>
           </a>
         </div>
     </div>
