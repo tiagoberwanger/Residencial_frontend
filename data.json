@@ -66,10 +66,10 @@
   "description": "Quarto disponível no piso superior, amplo e arejado.",
   "isAvailable": true,
   "images": [
-    "https://i.ibb.co/z2wL0fb/IMG-20190623-140704.jpg",
-    "https://i.ibb.co/v1GRQ7y/IMG-20190623-140745.jpg",
-    "https://i.ibb.co/fFKD42C/IMG-20190623-140818.jpg",
-    "https://i.ibb.co/p4MnRtk/IMG-20190623-141910.jpg",
+    "https://i.ibb.co/fvjvWfd/IMG-20210314-132719-resized.jpg",
+    "https://i.ibb.co/64558yC/IMG-20210314-133454-resized.jpg",
+    "https://i.ibb.co/tP4KLfB/IMG-20210314-133524-resized.jpg",
+    "https://i.ibb.co/5vjdfts/IMG-20210314-133140-resized.jpg",
     "https://i.ibb.co/RzQMbKW/IMG-20190623-141015.jpg",
     "https://i.ibb.co/njqcx98/IMG-20190623-141003.jpg"
   ]
@@ -79,14 +79,14 @@
   "name": "Quarto 2",
   "value": 375,
   "description": "Quarto disponível no piso superior, amplo e arejado.",
-  "isAvailable": true,
+  "isAvailable": false,
   "images": [
-    "https://i.ibb.co/z2wL0fb/IMG-20190623-140704.jpg",
-    "https://i.ibb.co/v1GRQ7y/IMG-20190623-140745.jpg",
-    "https://i.ibb.co/fFKD42C/IMG-20190623-140818.jpg",
-    "https://i.ibb.co/p4MnRtk/IMG-20190623-141910.jpg",
-    "https://i.ibb.co/RzQMbKW/IMG-20190623-141015.jpg",
-    "https://i.ibb.co/njqcx98/IMG-20190623-141003.jpg"
+    "https://i.ibb.co/fvjvWfd/IMG-20210314-132719-resized.jpg",
+    "https://i.ibb.co/64558yC/IMG-20210314-133454-resized.jpg",
+    "https://i.ibb.co/tP4KLfB/IMG-20210314-133524-resized.jpg",
+    "https://i.ibb.co/5vjdfts/IMG-20210314-133140-resized.jpg",
+    "https://i.ibb.co/DpKmPBN/IMG-20210314-132828-resized.jpg",
+    "https://i.ibb.co/tHNhyWn/IMG-20210314-132935-resized.jpg"
   ]
   }
 ]
