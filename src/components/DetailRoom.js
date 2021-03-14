@@ -37,27 +37,38 @@ function DetailRoom () {
         <p className="ml-6 mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-500 sm:text-4xl">
           {rooms.name}
         </p>
-        <p className="ml-6 mt-2 text-2xl leading-8 font-extrabold tracking-tight text-gray-500 sm:text-2xl">
+        {rooms.isAvailable 
+          ? <p className="ml-6 mt-2 text-1xl leading-8 font-extrabold tracking-tight text-green-500 sm:text-1xl">
+            Disponível
+            </p>
+          : <p className="ml-6 mt-2 text-1xl leading-8 font-semibold tracking-tight text-red-500 sm:text-1xl">
+            Indisponível
+            </p>
+        }
+        <p className="ml-6 mt-2 text-2xl leading-8 font-medium tracking-tight text-gray-500 sm:text-2xl">
           Valor: R$ {rooms.value}
         </p>
-        <p className="ml-6 mt-2 text-1xl leading-8 font-extrabold tracking-tight text-gray-500 sm:text-1xl">
+        <p className="ml-6 mt-2 text-1xl leading-8 font-normal tracking-tight text-gray-500 sm:text-1xl">
           Descrição: {rooms.description}
         </p>
         <div className=" grid grid-flow-row md:grid-flow-col ">
           <div className="m-3 border-2 border-white border-solid">
-            <img src={rooms.images[0]} alt="entrada" />
+            <img src={rooms.images[0]} alt="foto 1" />
           </div>
           <div className="m-3 border-2 border-white border-solid">
-            <img src={rooms.images[1]} alt="cozinha" />
+            <img src={rooms.images[1]} alt="foto 2" />
           </div>
           <div className="m-3 border-2 border-white border-solid">
-            <img src={rooms.images[2]} alt="sala" />
+            <img src={rooms.images[2]} alt="foto 3" />
           </div>
           <div className="m-3 border-2 border-white border-solid">
-            <img src={rooms.images[3]} alt="mesanino" />
+            <img src={rooms.images[3]} alt="foto 4" />
           </div>
           <div className="m-3 border-2 border-white border-solid">
-            <img src={rooms.images[4]} alt="banheiro" />
+            <img src={rooms.images[4]} alt="foto 5" />
+          </div>
+          <div className="m-3 border-2 border-white border-solid">
+            <img src={rooms.images[5]} alt="foto 6" />
           </div>
         </div>
         </div>
