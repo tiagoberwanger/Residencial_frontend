@@ -4,7 +4,7 @@ import '../styles/wppbutton.css'
 
 function Home () {
   return (
-    <div className="py-12 bg-gray-50">
+    <div className="py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="lg:text-center">
           <p className="ml-6 mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-500 sm:text-4xl">
@@ -125,7 +125,7 @@ function Home () {
         </div>
       </div>
         <div className="w-96 block my-0 mx-auto ">
-        <p className="text-2xl font-bold mt-10 mx-auto text-base text-gray-500">
+        <p className="ml-6 text-2xl font-bold mt-10 mx-auto text-base text-gray-500">
           Localização
         </p>
         <p className="ml-6 mt-4 text-justify max-w-2xl text-m text-gray-500 lg:mx-auto">
@@ -151,7 +151,7 @@ function Home () {
           />
         </div>
         <div className="w-96 block my-0 mx-auto ">
-        <p className="text-2xl font-bold mt-10 mb-5 mx-auto text-base text-gray-500">
+        <p className="ml-6 text-2xl font-bold mt-10 mb-5 mx-auto text-base text-gray-500">
           Contato
         </p>
           <a href="mailto:daniel_berwanger@hotmail.com" className="mt-3 px-4 py-2 text-base text-gray-500">
