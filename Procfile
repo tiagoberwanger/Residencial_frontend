@@ -1,0 +1,1 @@
+web: npm run build:css && react-scripts start
