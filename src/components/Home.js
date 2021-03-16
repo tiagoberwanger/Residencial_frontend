@@ -24,7 +24,7 @@ function Home () {
         <img
           alt="Snowy mountain lake"
           class="object-cover min-w-full h-full"
-          src="https://lh3.googleusercontent.com/pw/ACtC-3cW5zoSoQC2oOqYLGfFEn4kT6ui6A4dT6WPexEaqAu_EITi7GJNJVL6oslvAzBhOyFX46wu3ETemFyFIqNcF_MucCjlLlInleLfIXHfLo_AZAPfWYb0Hyz0a6gArlbD0foU3lsM82qONcSLHxx_EZlIqQ=w1027-h519-no"
+          src="https://i.ibb.co/TKZxNw2/Foto-casa.jpg"
         />
       </div>
     </div>

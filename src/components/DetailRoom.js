@@ -10,7 +10,7 @@ function DetailRoom () {
 
   useEffect(() => {
       setLoading(true); 
-      axios.get(`http://localhost:3001/room/${id}`)
+      axios.get(`https://residencial-backend.herokuapp.com/room/${id}`)
       .then((response) => {
         setRooms(response.data);
         setLoading(false);
